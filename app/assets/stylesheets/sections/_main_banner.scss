@@ -7,21 +7,41 @@
   .banner-profile-container{
     height:100%;
     width: 100%;
+    margin-top: 130px;
   }
   .banner-profile {
     display: flex;
   }
+  .banner-logos {
+    margin: 50px 0 0 0;
+    font-size: 40px;
+    i{
+      margin-right: 35px;
+    }
+  }
   #dot {
     font-family: 'Nunito', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
   }
   .banner-profile-name {
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 80px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    .name {
+      margin: 0px;
+      letter-spacing: 2px;
+    }
+    .last-name {
+      margin: -45px 0 0 0;
+      letter-spacing: 2px;
+    }
   }
 }
 
 .yellow-rectangule {
-height:20px;
-width: 40px;
+height:14px;
+width: 128px;
+margin: -15px 0 0 0;
 background-color: $yellow-color;
 }
