@@ -1,0 +1,27 @@
+.banner-container {
+  width: 100%;
+  height: 90vh;
+  background-color: $lighter-bg-color;
+  color: $whiter-font-color;
+  padding: 0 85px;
+  .banner-profile-container{
+    height:100%;
+    width: 100%;
+  }
+  .banner-profile {
+    display: flex;
+  }
+  #dot {
+    font-family: 'Nunito', sans-serif;
+  }
+  .banner-profile-name {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 80px;
+  }
+}
+
+.yellow-rectangule {
+height:20px;
+width: 40px;
+background-color: $yellow-color;
+}
