@@ -1,0 +1,10 @@
+.nav-tab {
+  font-family: 'Nunito Sans', sans-serif;
+  color: $whiter-font-color;
+  font-size: 26px;
+  font-weight:bold;
+  &:hover {
+    text-decoration:none;
+    color:$yellow-color;
+  }
+}
