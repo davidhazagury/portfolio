@@ -1,0 +1,16 @@
+.navbar-container{
+  width: 100%;
+  display:flex;
+  justify-content: flex-end;
+  padding:15px 81px 0 0;
+}
+.nav-tab {
+  font-family: 'Nunito Sans', sans-serif;
+  color: $whiter-font-color;
+  font-size: 26px;
+  font-weight:bold;
+  &:hover {
+    text-decoration:none;
+    color:$yellow-color;
+  }
+}

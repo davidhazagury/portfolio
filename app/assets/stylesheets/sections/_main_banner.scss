@@ -1,0 +1,68 @@
+.banner-container {
+  width: 100%;
+  height: 90vh;
+  background-color: $lighter-bg-color;
+  color: $whiter-font-color;
+  padding: 0 85px;
+  .banner-profile-container{
+    height:100%;
+    width: 100%;
+    margin-top: 130px;
+  }
+  .banner-profile {
+    display: flex;
+    justify-content: space-around;
+  }
+  .banner-logos {
+    margin: 50px 0 0 95px;
+    font-size: 40px;
+    a {
+      color:$whiter-font-color;
+
+      &:hover {
+        color:$yellow-color;
+        text-decoration: none;
+      }
+    }
+    i{
+      margin-right: 35px;
+    }
+  }
+  .banner-profile-name {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    .name {
+      margin: 0px;
+      letter-spacing: 2px;
+    }
+    .last-name {
+      margin: -45px 0 0 0;
+      letter-spacing: 2px;
+    }
+  }
+  .banner-profile-description {
+    margin: 65px 0 0 0;
+    width:365px;
+    p {
+      height: 100%;
+      width: 100%;
+      line-height: 35px;
+      font-size: 30px;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight:300;
+    }
+  }
+}
+
+.yellow-rectangule {
+height:14px;
+width: 128px;
+margin: -15px 0 0 0;
+background-color: $yellow-color;
+}
+#dot {
+    font-family: 'Nunito', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+  }
