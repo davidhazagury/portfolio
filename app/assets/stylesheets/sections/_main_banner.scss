@@ -11,9 +11,10 @@
   }
   .banner-profile {
     display: flex;
+    justify-content: space-around;
   }
   .banner-logos {
-    margin: 50px 0 0 0;
+    margin: 50px 0 0 95px;
     font-size: 40px;
     a {
       color:$whiter-font-color;
@@ -22,16 +23,10 @@
         color:$yellow-color;
         text-decoration: none;
       }
-
     }
     i{
       margin-right: 35px;
     }
-  }
-  #dot {
-    font-family: 'Nunito', sans-serif;
-    font-size: 96px;
-    font-weight: bold;
   }
   .banner-profile-name {
     font-family: 'Nunito Sans', sans-serif;
@@ -46,6 +41,18 @@
       letter-spacing: 2px;
     }
   }
+  .banner-profile-description {
+    margin: 65px 0 0 0;
+    width:365px;
+    p {
+      height: 100%;
+      width: 100%;
+      line-height: 35px;
+      font-size: 30px;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight:300;
+    }
+  }
 }
 
 .yellow-rectangule {
@@ -54,3 +61,8 @@ width: 128px;
 margin: -15px 0 0 0;
 background-color: $yellow-color;
 }
+#dot {
+    font-family: 'Nunito', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+  }
