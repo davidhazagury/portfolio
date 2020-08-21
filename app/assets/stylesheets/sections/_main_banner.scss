@@ -15,6 +15,15 @@
   .banner-logos {
     margin: 50px 0 0 0;
     font-size: 40px;
+    a {
+      color:$whiter-font-color;
+
+      &:hover {
+        color:$yellow-color;
+        text-decoration: none;
+      }
+
+    }
     i{
       margin-right: 35px;
     }
