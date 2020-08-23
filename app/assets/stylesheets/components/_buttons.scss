@@ -1,0 +1,16 @@
+.explore-btn {
+  font-family: 'Nunito Sans', sans-serif;
+  color: $yellow-color;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 5px solid #FFC25C;
+  &:hover {
+    color: $yellow-color;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $yellow-color;
+    text-decoration: none;
+  }
+
+}
