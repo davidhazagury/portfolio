@@ -3,6 +3,11 @@
   display:flex;
   justify-content: flex-end;
   padding:15px 81px 0 0;
+
+  span {
+    font-size: 90px;
+    color: #FFC25C;
+  }
 }
 .nav-tab {
   font-family: 'Nunito Sans', sans-serif;
@@ -14,3 +19,4 @@
     color:$yellow-color;
   }
 }
+
