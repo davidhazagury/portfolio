@@ -10,32 +10,36 @@
 
 @media screen and (max-width: 1023px) {
   .banner-container {
-  padding:0px;
-  height:100%;
-  .banner-logos {
-    font-size: 80px;
-    margin: 0 auto;
-    a {
-      &:hover {
-        color: $whiter-font-color;
-        text-decoration: none;
-      }
-      &:visited {
-        color:$whiter-font-color;
-        text-decoration:none;
-      }
+    padding:0px;
+    height:100%;
+    .banner-profile-container {
+      text-align:center;
+      height: 100%;
+      width: 100%;
+      margin-top: 25%;
     }
+    .banner-logos {
+      font-size: 80px;
+      margin: 0 auto;
+      a {
+        &:hover {
+          color: $whiter-font-color;
+          text-decoration: none;
+        }
+        &:visited {
+          color:$whiter-font-color;
+          text-decoration:none;
+        }
+      }
     }
   }
   .navbar-container {
     padding: 15px 0 0 0;
+    .navbar {
+      display:block;
+    }
   }
-  .banner-profile-container {
-    text-align:center;
-    height: 100%;
-    width: 100%;
-    margin-top: 45%;
-  }
+
   .banner-profile {
     display:flex;
     flex-direction:column;
