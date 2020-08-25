@@ -60,12 +60,79 @@
 
   // ******* ABOUT SECTION ********
   .about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     .home-grids {
       grid-template-columns: 1fr;
+      height: auto;
+      img {
+        margin: 0 auto;
+      }
     }
-    .home-headings {
-      text-align:center;
+    .about-description {
+      .home-headings {
+        text-align:center;
+        font-size: 80px;
+      }
+    .home-descriptions {
+      font-size: 26px;
+    }
+
     }
   }
+
+  // ******** PORTFOLIO SECTION*********
+  .portfolio-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    .home-grids {
+      grid-template-columns: 1fr;
+      height: auto;
+      img {
+        margin: 0 auto;
+      }
+    }
+    .portfolio-description {
+      .home-headings {
+        text-align:center;
+        font-size: 80px;
+      }
+      .home-descriptions {
+        font-size: 26px;
+      }
+      a {
+        font-size: 30px;
+      }
+    }
+  }
+  // ***** CONTACT SECTION *****
+
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    .home-grids {
+      grid-template-columns: 1fr;
+      height: auto;
+      img {
+        margin: 0 auto;
+      }
+    }
+    .contact-description {
+      .home-headings {
+        text-align:center;
+        font-size: 80px;
+      }
+      .home-descriptions {
+        font-size: 26px;
+      }
+    }
+  }
+
 }
 
