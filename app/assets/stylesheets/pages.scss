@@ -67,7 +67,7 @@
     .home-grids {
       grid-template-columns: 1fr;
       height: auto;
-      img {
+      .developer-illustration {
         margin: 0 auto;
       }
     }
@@ -90,7 +90,8 @@
     align-items: center;
     text-align:center;
     .home-grids {
-      grid-template-columns: 1fr;
+      display:flex;
+      flex-direction: column-reverse;
       height: auto;
       img {
         margin: 0 auto;
@@ -119,7 +120,7 @@
     .home-grids {
       grid-template-columns: 1fr;
       height: auto;
-      img {
+      .contact-illustration {
         margin: 0 auto;
       }
     }

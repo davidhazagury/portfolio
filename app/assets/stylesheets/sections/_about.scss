@@ -9,10 +9,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 150px;
-    img {
+    .developer-illustration{
       width: 70%;
       height: inherit;
     }
+
   }
   .about-description {
     font-family: 'Nunito Sans', sans-serif;
