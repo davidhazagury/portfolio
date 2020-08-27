@@ -1,4 +1,4 @@
 meta_product_name: "David Hernandez"
 meta_title: "David Hernandez - Junior Full Stack & Product Developer"
 meta_description: "Junior Full Stack & Product Developer, based in Madrid."
-meta_image: "cover.png" # should exist in `app/assets/images/`
+meta_image: "opengraphimage.png" # should exist in `app/assets/images/`
