@@ -3,4 +3,4 @@ meta_title: "David Hernandez | Junior Full Stack & Product Developer"
 meta_description: "Hi! I am David a Junior Full Stack and Product Developer. Currently based in Madrid.
                    Check out my personal portfolio and GitHub repositories. Most of my projects are made
                    in Ruby On Rails and Javascript."
-meta_image: logo.png" # should exist in `app/assets/images/`
+meta_image: "logo.png" # should exist in `app/assets/images/`
