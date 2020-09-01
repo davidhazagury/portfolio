@@ -1,11 +1,19 @@
 .form-container {
-  color:$whiter-font-color;
+  color:$grayer-bodyfont-color;
   font-family: 'Nunito Sans', sans-serif;
   display: flex;
   flex-direction: column;
   padding: 40px;
-  border: 2px solid #FFC25C;
   margin-top: 90px;
+  font-weight: 100;
+  input {
+    border:none;
+    border-radius: 2px;
+  }
+  textarea {
+    border-radius: 2px;
+    border:none;
+  }
   label {
     display: flex;
     flex-direction: column;
