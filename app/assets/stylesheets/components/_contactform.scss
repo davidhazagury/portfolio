@@ -1,0 +1,13 @@
+.form-container {
+  color:$whiter-font-color;
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border: 2px solid #FFC25C;
+  margin-top: 90px;
+  label {
+    display: flex;
+    flex-direction: column;
+  }
+}
