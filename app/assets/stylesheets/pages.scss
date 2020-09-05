@@ -94,10 +94,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15vh;
+    margin-top: 10vh;
     .grid {
-      height:250px;
-      width:345px;
+      height:375px;
+      width:575px;
+    }
+    a {
+      &:hover {
+        .grid {
+          transform: none;
+        }
+      }
     }
   }
 }
