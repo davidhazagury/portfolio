@@ -85,7 +85,17 @@
   }
 
   // ******** PORTFOLIO SECTION*********
-
+.portfolio-section {
+  .home-headings {
+    text-align: center;
+  }
+  .portfolio-grids {
+    grid-template-columns: 1fr;
+    margin-top:7vh;
+    .grid {
+      height:200px;}
+  }
+}
   // ***** CONTACT SECTION *****
 
   .contact-section {
