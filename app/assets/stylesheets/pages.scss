@@ -85,33 +85,7 @@
   }
 
   // ******** PORTFOLIO SECTION*********
-  .portfolio-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align:center;
-    height: auto;
-    .home-grids {
-      display:flex;
-      flex-direction: column-reverse;
-      height: auto;
-      img {
-        margin: 0 auto;
-      }
-    }
-    .portfolio-description {
-      .home-headings {
-        text-align:center;
-        font-size: 80px;
-      }
-      .home-descriptions {
-        font-size: 35px;
-      }
-      a {
-        font-size: 30px;
-      }
-    }
-  }
+
   // ***** CONTACT SECTION *****
 
   .contact-section {

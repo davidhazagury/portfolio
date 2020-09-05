@@ -24,14 +24,24 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 0px;
     margin-top: 50px;
+    border-radius: 3px;
   }
   a{
-  .grid {
-    height:250px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    .grid {
+      height:250px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: transform .2s;
+    }
+
+    &:hover {
+      .grid {
+        transform: scale(1.1);
+        z-index: 100;
+        border-radius: 6px;
+      }
+    }
   }
-}
 }
