@@ -1,113 +1,15 @@
 <div class="page-container">
   <!-- NAVBAR -->
   <div class="banner-container">
-    <div class="navbar-container">
-      <nav class="navbar navbar-expand-lg">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item mr-3">
-              <a class="nav-link nav-tab" href="#about">About</a>
-            </li>
-            <li class="nav-item mr-3">
-              <a class="nav-link nav-tab" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item mr-3">
-              <a class="nav-link nav-tab" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+    <!--NAVBAR-->
+    <%= render 'shared/navbar' %>
     <!-- MAIN BANNER -->
-    <div class="banner-profile-container">
-      <div class="banner-profile">
-        <div class="banner-profile-name">
-          <p class="name">David</p>
-          <p class="last-name">Hernandez<span id="dot">.</span></p>
-          <div class="yellow-rectangule"></div>
-        </div>
-        <div class="banner-profile-description">
-          <p>Junior Full Stack & Product
-             Developer, based in
-             Madrid.</p>
-        </div>
-      </div>
-      <div class="banner-logos">
-        <%= link_to "https://github.com/davidhazagury", target: "_blank"  do %>
-          <i class="fab fa-github"></i>
-        <% end %>
-        <%= link_to "https://www.linkedin.com/in/davidhernandezazagury/", target: "_blank" do %>
-          <i class="fab fa-linkedin-in"></i>
-        <% end %>
-      </div>
-    </div>
+    <%= render 'shared/sections/main_banner' %>
   </div>
-
   <!-- ABOUT SECTION-->
-  <div class="about-section" id="about">
-    <div class="home-grids">
-      <div class="about-description">
-        <p class="home-headings">Do you want to <br> know more about</br>me?</p>
-        <p class="home-descriptions">
-          I am a Junior Full Stack and Product Developer currently based in Madrid, Spain.
-          Who focus on building excellent software that turns complex problems into simple,
-          by creating <strong>intuitive and dynamic user experiences</strong>.
-          And by <strong>writting clean, elegant and efficient code</strong>.
-          <br>I've always had a passion for technology and product development - even before becoming a developer,
-          having self-learned the basics of web development (HTML & CSS), before joining Le Wagon Coding School.
-          <br>I have 4+ years of customer service work experience which I use to be more than just a coder,
-          connecting with the clients requirements with modern technology.
-          <br>When I'm not coding you will find me watching Netflix, travelling or karting.
-        </p>
-      </div>
-      <div class="developer-illustration">
-        <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_WdTEui.json" background="transparent"  speed="1" loop autoplay></lottie-player>
-      </div>
-      <%#= image_tag "about-illustration.svg" %>
-    </div>
-  </div>
-
+  <%= render 'shared/sections/about' %>
   <!--PORTFOLIO SECTION-->
-  <div class="portfolio-section">
-    <!--NEW VERSION
-    <p class="home-headings">Are you curious <br>about my</br>work?</p>
-    <div class="portfolio-home-grid">
-     <%#= link_to "https://www.mytoploc.com/" do  %>
-     <%#= image_tag "mytoplocmockup.png", class: "grid grid-1" %>
-      <% #end %>
-      <div class="grid grid-2"></div>
-      <div class="grid grid-4"></div>
-      <div class="grid grid-5"></div>
-      <div class="grid grid-6"></div>
-    </div>-->
-    <!--OLD VERSION-->
-    <div class="home-grids">
-      <%= image_tag "portfolio-illustation.svg" %>
-      <div class="portfolio-description">
-        <p class="home-headings">Are you curious <br>about my</br>work?</p>
-        <p class="home-descriptions">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula ullamcorper, gravida arcu in, bibendum est. Phasellus non faucibus lectus. Mauris porta purus sit amet turpis lobortis, sit amet pulvinar arcu cursus. Etiam laoreet volutpat ligula, non egestas ante tincidunt nec. Maecenas rutrum, magna quis lobortis sollicitudin, urna velit congue ligula, et lacinia nunc nisl et lectus. Vestibulum a mi eu leo condimentum convallis. Donec laoreet maximus congue. Nulla ut aliquet mauris. Quisque ultrices quis tortor eget vehicula. Sed nibh risus, vulputate vitae lacus vitae, faucibus feugiat dolor. Suspendisse semper justo quis orci rhoncus, eget auctor tortor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam risus dolor, interdum eu ullamcorper eu, volutpat eget ex. Integer pulvinar facilisis ante, vel sagittis tortor mollis non. Fusce sodales erat vitae ex lacinia interdum. Proin nec porta metus.</p>
-        <%= link_to "Explore it", "#", class: "explore-btn" %>
-      </div>
-    </div>
-
-  </div>
-
+  <%= render 'shared/sections/portfolio' %>
   <!--CONTACT SECTION -->
-  <div class="contact-section" id="contact">
-    <div class="home-grids">
-      <div class="contact-description">
-        <p class="home-headings">Let's get in touch.</p>
-        <%= render 'shared/contactform' %>
-      </div>
-      <div class="contact-illustration">
-          <!--<lottie-player src="https://assets5.lottiefiles.com/packages/lf20_ICkctl.json" background="transparent"  speed="1" loop autoplay></lottie-player>-->
-          <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_9ltfoN.json" background="transparent"  speed="1" loop autoplay></lottie-player>
-      </div>
-      <%#= image_tag "contact-illustration.svg" %>
-    </div>
-  </div>
+  <%= render 'shared/sections/contact' %>
 </div>
