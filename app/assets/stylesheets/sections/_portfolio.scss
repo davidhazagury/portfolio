@@ -17,4 +17,19 @@
       border-bottom: 10px solid #FFC25C;
     }
   }
+
+  .portfolio-grids {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0px;
+    margin-top: 50px;
+  }
+  .grid {
+    border: 1px solid white;
+    height:250px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
 }
