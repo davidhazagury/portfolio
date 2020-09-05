@@ -1,23 +1,23 @@
   <div class="portfolio-section">
-    <!--NEW VERSION
-    <p class="home-headings">Are you curious <br>about my</br>work?</p>
-    <div class="portfolio-home-grid">
-     <%#= link_to "https://www.mytoploc.com/" do  %>
-     <%#= image_tag "mytoplocmockup.png", class: "grid grid-1" %>
-      <% #end %>
-      <div class="grid grid-2"></div>
-      <div class="grid grid-4"></div>
-      <div class="grid grid-5"></div>
-      <div class="grid grid-6"></div>
-    </div>-->
-    <!--OLD VERSION-->
-    <div class="home-grids">
-      <%= image_tag "portfolio-illustation.svg" %>
-      <div class="portfolio-description">
-        <p class="home-headings">Are you curious <br>about my</br>work?</p>
-        <p class="home-descriptions">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula ullamcorper, gravida arcu in, bibendum est. Phasellus non faucibus lectus. Mauris porta purus sit amet turpis lobortis, sit amet pulvinar arcu cursus. Etiam laoreet volutpat ligula, non egestas ante tincidunt nec. Maecenas rutrum, magna quis lobortis sollicitudin, urna velit congue ligula, et lacinia nunc nisl et lectus. Vestibulum a mi eu leo condimentum convallis. Donec laoreet maximus congue. Nulla ut aliquet mauris. Quisque ultrices quis tortor eget vehicula. Sed nibh risus, vulputate vitae lacus vitae, faucibus feugiat dolor. Suspendisse semper justo quis orci rhoncus, eget auctor tortor posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam risus dolor, interdum eu ullamcorper eu, volutpat eget ex. Integer pulvinar facilisis ante, vel sagittis tortor mollis non. Fusce sodales erat vitae ex lacinia interdum. Proin nec porta metus.</p>
-        <%= link_to "Explore it", "#", class: "explore-btn" %>
-      </div>
+    <p class="home-headings">Are you curious about mywork? <span class="explore-line">Explore it </span></p>
+    <div class="portfolio-grids">
+      <%= link_to "https://www.mytoploc.com/", target: "_blank" do %>
+        <div class="grid" id="grid-1" style ="background-image: url('https://res.cloudinary.com/dgsqurpio/image/upload/v1599291677/portfolio/mytoploc_pq05tk.png')"></div>
+      <% end %>
+      <%= link_to "https://www.mytoploc.com/", target: "_blank" do %>
+        <div class="grid" id="grid-1"></div>
+      <% end %>
+      <%= link_to "#", target: "_blank" do %>
+        <div class="grid" id="grid-1"></div>
+      <% end %>
+      <%= link_to "#", target: "_blank" do %>
+        <div class="grid" id="grid-1"></div>
+      <% end %>
+      <%= link_to "#", target: "_blank" do %>
+        <div class="grid" id="grid-1"></div>
+      <% end %>
+      <%= link_to "#", target: "_blank" do %>
+        <div class="grid" id="grid-1"></div>
+      <% end %>
     </div>
-
   </div>
