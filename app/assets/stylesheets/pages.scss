@@ -90,10 +90,15 @@
     text-align: center;
   }
   .portfolio-grids {
-    grid-template-columns: 1fr;
-    margin-top:7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
     .grid {
-      height:200px;}
+      height:250px;
+      width:345px;
+    }
   }
 }
   // ***** CONTACT SECTION *****
