@@ -25,11 +25,14 @@
     grid-gap: 0px;
     margin-top: 50px;
   }
+  a{
   .grid {
     border: 1px solid white;
     height:250px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+}
 }
