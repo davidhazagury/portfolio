@@ -76,6 +76,7 @@
       .home-headings {
         text-align:center;
         font-size: 80px;
+        margin-bottom: 7vh;
       }
     .home-descriptions {
       font-size: 35px;
@@ -128,11 +129,21 @@
         text-align:center;
         font-size: 80px;
       }
-      .home-descriptions {
-        font-size: 35px;
+      .form-container {
+        label {
+          font-size: 35px;
+        }
       }
     }
   }
 
 }
 
+// ******* NAVBAR ********
+
+.nav-link {
+  font-size: 60px;
+}
+#navbar {
+  margin-right: 0px;
+}
