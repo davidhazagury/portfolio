@@ -34,6 +34,9 @@
         }
       }
     }
+        .scroll-animation {
+      display: none;
+    }
   }
   .navbar-container {
     padding: 15px 0 0 0;
@@ -88,6 +91,7 @@
 
   // ******** PORTFOLIO SECTION*********
 .portfolio-section {
+  height:100%;
   .home-headings {
     text-align: center;
     font-size: 80px;
@@ -148,6 +152,10 @@
           margin-top: 20px}
       }
     }
+  }
+  // ******* RE - DES -DEV ****
+  .punchsection {
+    display:none;
   }
   // ******* NAVBAR ********
 

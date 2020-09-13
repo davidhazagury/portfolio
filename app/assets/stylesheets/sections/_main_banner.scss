@@ -14,7 +14,7 @@
     justify-content: space-around;
   }
   .banner-logos {
-    margin: 50px 0 0 95px;
+    margin: 50px 0 100px 95px;
     font-size: 40px;
     a {
       color:$whiter-font-color;
@@ -53,6 +53,10 @@
       font-family: 'Nunito Sans', sans-serif;
       font-weight:300;
     }
+  }
+  .scroll-animation {
+    width: 49px;
+    margin: 0 auto;
   }
 }
 
