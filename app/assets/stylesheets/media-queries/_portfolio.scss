@@ -19,11 +19,13 @@
     .grid {
       height:375px;
       width:575px;
+      opacity: 1;
     }
     a {
+      opacity: 1;
       &:hover {
         .grid {
-          transform: none;
+          opacity:1;
         }
       }
     }

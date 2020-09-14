@@ -5,12 +5,13 @@
         <div class="grid" id="grid-1" style ="background-image: url('https://res.cloudinary.com/dgsqurpio/image/upload/v1599291677/portfolio/mytoploc_pq05tk.png')"></div>
       <% end %>
 
-      <%= link_to "https://www.mytoploc.com/", target: "_blank" do %>
-        <div class="grid" id="grid-2" style ="background-image: url('https://res.cloudinary.com/dgsqurpio/image/upload/v1599292918/portfolio/vesselband_qkzbjx.png')"></div>
-      <% end %>
-
       <%= link_to "https://www.discomfortzone.me/", target: "_blank" do %>
         <div class="grid" id="grid-3" style ="background-image: url('https://res.cloudinary.com/dgsqurpio/image/upload/v1599293524/portfolio/mockup-of-an-iphone-lying-on-a-pink-surface-with-purple-and-yellow-21639_tph4n8.png')"></div>
+      <% end %>
+
+      <%= link_to "#", style: "position:relative", id:"construction" do %>
+        <div class="grid" id="grid-2" style ="background-image: url('https://res.cloudinary.com/dgsqurpio/image/upload/v1599292918/portfolio/vesselband_qkzbjx.png'); filter: grayscale(100%); opacity: 0.8"></div>
+          <lottie-player id="animation" style ="position:absolute; top: 0; left: 6px;opacity: 1;" src="https://assets9.lottiefiles.com/packages/lf20_m6cuL6.json" background="transparent"  speed="1" loop autoplay></lottie-player>
       <% end %>
       <!-- *** GRIDS FOR FUTURE PROJECTS ***
       <%#= link_to "#", target: "_blank" do %>
