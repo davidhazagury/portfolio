@@ -36,14 +36,24 @@
       background-repeat: no-repeat;
       background-size: cover;
       transition: transform .2s;
+      opacity: 0.8;
     }
-
     &:hover {
       .grid {
-        transform: scale(1.1);
-        z-index: 100;
-        border-radius: 6px;
+        opacity: 2;
       }
     }
   }
 }
+    #construction {
+      &:hover{
+        opacity: 1;
+      }
+      #animation {
+      opacity: 1;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    }
+
