@@ -13,8 +13,17 @@
   .nav-link {
     font-size: 60px;
   }
-  .home-headings-ipad {
-    display: none;
-  }
+    .about-section {
+      .home-headings-ipad {
+        display:none;
+      }
+    }
 }
 
+@media screen and (min-width: 1025px) {
+    .about-section {
+      .home-headings-ipad {
+        display:none;
+      }
+    }
+}
