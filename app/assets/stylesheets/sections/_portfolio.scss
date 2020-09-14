@@ -46,14 +46,10 @@
   }
 }
     #construction {
+      opacity: 1;
       &:hover{
         opacity: 1;
+        cursor: default
       }
-      #animation {
-      opacity: 1;
-      &:hover {
-        opacity: 1;
-      }
-    }
     }
 
