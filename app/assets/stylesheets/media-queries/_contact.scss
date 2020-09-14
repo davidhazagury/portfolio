@@ -1,0 +1,54 @@
+@media screen and (max-width: 1023px) {
+    .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    height: auto;
+    .home-grids {
+      grid-template-columns: 1fr;
+      height: auto;
+      .contact-illustration {
+        margin: 0 auto;
+      }
+    }
+    .contact-description {
+      .home-headings {
+        text-align:center;
+        font-size: 80px;
+      }
+      .form-container {
+        label {
+          font-size: 35px;
+          padding-bottom: 40px;
+        }
+        .form-btn {
+          font-size: 35px;
+        }
+        input {
+          margin-top: 20px}
+      }
+    }
+  }
+}
+
+// LANDSCAPE IPAD
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .contact-section {
+    .home-grids {
+      .contact-description {
+        .form-container {
+          padding: 0px;
+          font-size: 20px;
+        }
+      }
+      .contact-illustration {
+        width: 100%;
+      }
+
+    }
+  }
+}
