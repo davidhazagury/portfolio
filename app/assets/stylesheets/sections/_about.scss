@@ -12,6 +12,26 @@
     .developer-illustration{
       width: 70%;
       height: inherit;
+      position: relative;
+      .programming-languages {
+        position: absolute;
+        bottom: 30px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        color: #FFC25C;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        p {
+          margin-left:4px;
+          span {
+            margin-right: 4px;
+            font-weight:100;
+
+          }
+        }
+      }
     }
 
   }
