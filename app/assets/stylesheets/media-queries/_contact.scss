@@ -1,0 +1,33 @@
+@media screen and (max-width: 1023px) {
+    .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    height: auto;
+    .home-grids {
+      grid-template-columns: 1fr;
+      height: auto;
+      .contact-illustration {
+        margin: 0 auto;
+      }
+    }
+    .contact-description {
+      .home-headings {
+        text-align:center;
+        font-size: 80px;
+      }
+      .form-container {
+        label {
+          font-size: 35px;
+          padding-bottom: 40px;
+        }
+        .form-btn {
+          font-size: 35px;
+        }
+        input {
+          margin-top: 20px}
+      }
+    }
+  }
+}

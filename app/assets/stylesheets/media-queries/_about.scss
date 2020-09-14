@@ -1,0 +1,28 @@
+@media screen and (max-width: 1023px) {
+  .about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    .home-grids {
+      grid-template-columns: 1fr;
+      height: auto;
+      .developer-illustration {
+        margin: 0 auto;
+      }
+    }
+    .about-description {
+      .home-headings {
+        text-align:center;
+        font-size: 80px;
+        margin-bottom: 7vh;
+        line-height:80px;
+      }
+    .home-descriptions {
+      font-size: 35px;
+    }
+
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width: 1023px) {
+  .portfolio-section {
+  height:100%;
+  .home-headings {
+    text-align: center;
+    font-size: 80px;
+    line-height: 86px;
+    .explore-line {
+      font-size:80px;
+      line-height:86px;
+    }
+  }
+  .portfolio-grids {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    .grid {
+      height:375px;
+      width:575px;
+    }
+    a {
+      &:hover {
+        .grid {
+          transform: none;
+        }
+      }
+    }
+  }
+}
+}

@@ -1,0 +1,52 @@
+@media screen and (max-width: 1023px) {
+  .banner-container {
+    padding:0px;
+    height:100%;
+    .banner-profile-container {
+      text-align:center;
+      height: 100%;
+      width: 100%;
+      margin-top: 25%;
+    }
+    .banner-logos {
+      font-size: 80px;
+      margin: 0 auto;
+      a {
+        &:hover {
+          color: #EBEBEC;
+          text-decoration: none;
+        }
+        &:visited {
+          color: #EBEBEC;
+          text-decoration:none;
+        }
+      }
+    }
+        .scroll-animation {
+      display: none;
+    }
+  }
+  .navbar-container {
+    padding: 15px 0 0 0;
+    .navbar {
+      display:block;
+    }
+  }
+
+  .banner-profile {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    .banner-profile-name {
+      font-size: 140px;
+    }
+    .banner-profile-description p {
+      font-size: 48px;
+      line-height: 60px
+    }
+    .yellow-rectangule {
+      margin: 0 auto;
+    }
+  }
+
+}
