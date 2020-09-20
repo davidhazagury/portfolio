@@ -33,11 +33,124 @@
   }
 }
 
-// LANDSCAPE IPAD
+// iPAD LANDSCAPE AND PORTRAIT
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
 @media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .about-section {
+      height: auto;
+      .home-headings-ipad {
+        font-size: 48px;
+        color: $whiter-font-color;
+        font-weight: bold;
+      }
+      .home-grids {
+        grid-template-columns: repeat(2,1fr);
+        height: auto;
+        .developer-illustration {
+          margin: 0 auto;
+          width: 100%;
+          .programming-languages {
+            bottom: 0px;
+            font-size: 13px;
+          }
+        }
+      }
+      .about-description {
+        .home-headings {
+          display:none;
+        }
+        .home-descriptions {
+          font-size: 16px;
+        }
+      }
+    }
+}
+
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .about-section {
+    height: auto;
+    .home-headings-ipad {
+      font-size: 48px;
+      color: $whiter-font-color;
+      font-weight: bold;
+    }
+    .home-grids {
+      grid-template-columns: repeat(2,1fr);
+      height: auto;
+      .developer-illustration {
+        margin: 0 auto;
+        width: 100%;
+        .programming-languages {
+          bottom: 0px;
+          font-size: 13px;
+        }
+      }
+    }
+    .about-description {
+      .home-headings {
+        display:none;
+      }
+      .home-descriptions {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+@media only screen
+  and (min-device-width: 834px)
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .about-section {
+    height: auto;
+    .home-headings-ipad {
+      font-size: 48px;
+      color: $whiter-font-color;
+      font-weight: bold;
+    }
+    .home-grids {
+      grid-template-columns: repeat(2,1fr);
+      height: auto;
+      .developer-illustration {
+        margin: 0 auto;
+        width: 100%;
+        .programming-languages {
+          bottom: 0px;
+          font-size: 13px;
+        }
+      }
+    }
+    .about-description {
+      .home-headings {
+        display:none;
+      }
+      .home-descriptions {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
   .about-section {
     height: auto;
     .home-headings-ipad {
@@ -69,3 +182,40 @@ and (orientation : landscape) {
 
 }
 
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-device-width: 1366px)
+  and (max-device-width: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .about-section {
+    height: auto;
+    .home-headings-ipad {
+      font-size: 48px;
+      color: $whiter-font-color;
+      font-weight: bold;
+    }
+    .home-grids {
+      grid-template-columns: repeat(2,1fr);
+      height: auto;
+      .developer-illustration {
+        margin: 0 auto;
+        width: 100%;
+        .programming-languages {
+          bottom: 0px;
+          font-size: 13px;
+        }
+      }
+    }
+    .about-description {
+      .home-headings {
+        display:none;
+      }
+      .home-descriptions {
+        font-size: 16px;
+      }
+    }
+  }
+}
