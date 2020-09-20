@@ -51,75 +51,14 @@
 
 }
 
-// iPAD LANDSCAPE AND PORTRAIT
-
-/* ----------- iPad 1, 2, Mini and Air ----------- */
+// LANDSCAPE IPAD
 @media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-    .banner-container {
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .banner-container {
     .banner-logos {
       margin: 50px 0 100px 0px;
     }
   }
-}
-
-
-/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
-
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .banner-container {
-    .banner-logos {
-      margin: 50px 0 100px 0px;
-    }
-  }
-}
-
-/* ----------- iPad Pro 10.5" ----------- */
-
-@media only screen
-  and (min-device-width: 834px)
-  and (max-device-width: 1112px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .banner-container {
-    .banner-logos {
-      margin: 50px 0 100px 0px;
-    }
-  }
-}
-
-/* Portrait */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-device-width: 1024px)
-  and (max-device-width: 1024px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .banner-container {
-    .banner-logos {
-      margin: 50px 0 100px 0px;
-    }
-  }
-
-}
-
-/* Landscape */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-device-width: 1366px)
-  and (max-device-width: 1366px)
-  and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .banner-container {
-    .banner-logos {
-      margin: 50px 0 100px 0px;
-    }
-  }
-
 }
